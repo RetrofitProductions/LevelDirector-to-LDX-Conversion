@@ -27,4 +27,7 @@ For me, I had levels/projectfiles/ for my actual ldf files. and my exported leve
 3. Set your projectFilePath to the location of the ldf files.
 4. Set your imagePath to be linked from wherever you are going to export your ldx files to. 
 5. Just run using coronasdk. The output will print progress and will say finished when its done. The final files are made next to your ldf files. 
-
+6. Copy the converted files to your project folder.
+ 
+Note: This does not convert your game code so you will need to modify the syntax to load the new LDX created levels.
+The code changes are very simple, see one of the example projects to see how it is done.
