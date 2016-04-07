@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><level version="1.0" width="2400" height="320" target="0" backgroundcolor="-16751616" gravityX="0" gravityY="9.8" parallaxinfinite="true" name="Level01">
+<assets firstgid="1" name="tileset_xml"  width="70" height="70"><image source="../../images/levels/tileset.png" width="70" height="70" spritesheet="../../images/levels/tileset.xml"/>
+ <asset frame="0" name="bridge_png" export="1" x="77" y="522" w="70" h="70"> </asset>
+ <asset frame="1" name="bush_png" export="1" x="3" y="522" w="70" h="70"> </asset>
+ <asset frame="2" name="cactus_png" export="1" x="373" y="521" w="70" h="70"> </asset>
+ <asset frame="3" name="cloud1_png" export="1" x="269" y="3" w="128" h="71"> </asset>
+ <asset frame="4" name="cloud2_png" export="1" x="136" y="3" w="129" h="71"> </asset>
+ <asset frame="5" name="cloud3_png" export="1" x="3" y="3" w="129" h="71"> </asset>
+ <asset frame="6" name="door_closedMid_png" export="1" x="299" y="448" w="70" h="70"> </asset>
+ <asset frame="7" name="door_closedTop_png" export="1" x="225" y="448" w="70" h="70"> </asset>
+ <asset frame="8" name="door_openMid_png" export="1" x="151" y="448" w="70" h="70"> </asset>
+ <asset frame="9" name="door_openTop_png" export="1" x="77" y="448" w="70" h="70"> </asset>
+ <asset frame="10" name="fence_png" export="1" x="3" y="448" w="70" h="70"> </asset>
+ <asset frame="11" name="grass_png" export="1" x="373" y="447" w="70" h="70"> </asset>
+ <asset frame="12" name="grassCenter_png" export="1" x="299" y="374" w="70" h="70"> </asset>
+ <asset frame="13" name="grassCenter_rounded_png" export="1" x="225" y="374" w="70" h="70"> </asset>
+ <asset frame="14" name="grassCliffLeft_png" export="1" x="151" y="374" w="70" h="70"> </asset>
+ <asset frame="15" name="grassCliffLeftAlt_png" export="1" x="77" y="374" w="70" h="70"> </asset>
+ <asset frame="16" name="grassCliffRight_png" export="1" x="3" y="374" w="70" h="70"> </asset>
+ <asset frame="17" name="grassCliffRightAlt_png" export="1" x="373" y="373" w="70" h="70"> </asset>
+ <asset frame="18" name="grassHalf_png" export="1" x="299" y="300" w="70" h="70">  <physics enabled="1" bodytype="0" convex="0" linked="1">  <body bodyshape="2" friction="0" bounce="0" density="1" radius="0" bullet="0" sensor="0" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics>
+  <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="Fixtures" gridX="70" gridY="70">
+  <object shape="1" name="polyon_1" alpha="1" blendMode="0" x="0" y="0" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="2868035455" textcolor="4294967295">
+  <polygon points ="0,0 69,0 70,40 0,41"/>
+  <physics enabled="1" bodytype="0" convex="0" linked="1">  <body bodyshape="2" friction="0" bounce="0" density="1" radius="0" bullet="0" sensor="0" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics>
+  </object>
+  </layer>
+ </asset>
+ <asset frame="19" name="grassHalfLeft_png" export="1" x="225" y="300" w="70" h="70"> </asset>
+ <asset frame="20" name="grassHalfMid_png" export="1" x="151" y="300" w="70" h="70"> </asset>
+ <asset frame="21" name="grassHalfRight_png" export="1" x="77" y="300" w="70" h="70"> </asset>
+ <asset frame="22" name="grassHillLeft_png" export="1" x="3" y="300" w="70" h="70">  <physics enabled="1" bodytype="0" convex="0" linked="1">  <body bodyshape="2" friction="0" bounce="0" density="1" radius="0" bullet="0" sensor="0" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics>
+  <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="Fixtures" gridX="70" gridY="70">
+  <object shape="1" name="polyon_1" alpha="1" blendMode="0" x="0" y="0" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="2868035455" textcolor="4294967295">
+  <polygon points ="1,70 69.72868,1.3565892 70,70"/>
+  <physics enabled="1" bodytype="0" convex="0" linked="1">  <body bodyshape="2" friction="0" bounce="0" density="1" radius="0" bullet="0" sensor="0" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics>
+  </object>
+  </layer>
+ </asset>
+ <asset frame="23" name="grassHillLeft2_png" export="1" x="373" y="299" w="70" h="70"> </asset>
+ <asset frame="24" name="grassHillRight_png" export="1" x="299" y="226" w="70" h="70"> </asset>
+ <asset frame="25" name="grassHillRight2_png" export="1" x="225" y="226" w="70" h="70"> </asset>
+ <asset frame="26" name="grassLedgeLeft_png" export="1" x="484" y="3" w="5" h="24"> </asset>
+ <asset frame="27" name="grassLedgeRight_png" export="1" x="475" y="3" w="5" h="24"> </asset>
+ <asset frame="28" name="grassLeft_png" export="1" x="151" y="226" w="70" h="70"> </asset>
+ <asset frame="29" name="grassMid_png" export="1" x="77" y="226" w="70" h="70"> </asset>
+ <asset frame="30" name="grassRight_png" export="1" x="3" y="226" w="70" h="70"> </asset>
+ <asset frame="31" name="hill_smallAlt_png" export="1" x="447" y="151" w="48" h="106"> </asset>
+ <asset frame="32" name="ladder_mid_png" export="1" x="373" y="225" w="70" h="70"> </asset>
+ <asset frame="33" name="ladder_top_png" export="1" x="299" y="152" w="70" h="70"> </asset>
+ <asset frame="34" name="liquidLava_png" export="1" x="225" y="152" w="70" h="70"> </asset>
+ <asset frame="35" name="liquidLavaTop_png" export="1" x="151" y="152" w="70" h="70"> </asset>
+ <asset frame="36" name="liquidLavaTop_mid_png" export="1" x="77" y="152" w="70" h="70"> </asset>
+ <asset frame="37" name="liquidWater_png" export="1" x="3" y="152" w="70" h="70"> </asset>
+ <asset frame="38" name="liquidWaterTop_png" export="1" x="373" y="151" w="70" h="70"> </asset>
+ <asset frame="39" name="liquidWaterTop_mid_png" export="1" x="299" y="78" w="70" h="70"> </asset>
+ <asset frame="40" name="mushroomRed_png" export="1" x="225" y="78" w="70" h="70"> </asset>
+ <asset frame="41" name="plant_png" export="1" x="151" y="78" w="70" h="70"> </asset>
+ <asset frame="42" name="rock_png" export="1" x="77" y="78" w="70" h="70"> </asset>
+ <asset frame="43" name="sandCenter_png" export="1" x="299" y="374" w="70" h="70"> </asset>
+ <asset frame="44" name="sandCenter_rounded_png" export="1" x="225" y="374" w="70" h="70"> </asset>
+ <asset frame="45" name="signExit_png" export="1" x="3" y="78" w="70" h="70">  <physics enabled="1" bodytype="0" convex="0" linked="1">  <body bodyshape="2" friction="0" bounce="0" density="1" radius="0" bullet="0" sensor="1" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics>
+  <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="Fixtures" gridX="70" gridY="70">
+  <object shape="1" name="polyon_1" alpha="1" blendMode="0" x="0" y="0" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="2868035455" textcolor="4294967295">
+  <polygon points ="27.9457359,0 41.24031,0 41.24031,69.45737 28.4883728,69.45737"/>
+  <physics enabled="1" bodytype="0" convex="0" linked="1">  <body bodyshape="2" friction="0" bounce="0" density="1" radius="0" bullet="0" sensor="1" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics>
+  </object>
+  </layer>
+ </asset>
+ <asset frame="46" name="signRight_png" export="1" x="401" y="77" w="70" h="70"> </asset>
+ <asset frame="47" name="star_png" export="1" x="401" y="3" w="70" h="70">  <physics enabled="1" bodytype="2" convex="0" linked="1">  <body bodyshape="1" friction="0" bounce="0" density="1" radius="20" bullet="0" sensor="1" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics>
+ </asset>
+</assets>
+<assets firstgid="49" name="player"  width="48" height="48"> <image source="../../images/levels/player.png" width="192" height="192"/>
+ <asset frame="0" name="player" export="1" x="0" y="0" w="48" h="48">  <physics enabled="1" bodytype="1" convex="0" linked="1">  <body bodyshape="2" friction="0.1" bounce="0" density="0.8" radius="20" bullet="0" sensor="0" sleepallowed="1" fixed="1" categorybit="NotSet" maskbit="0"/>  </physics>
+  <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="Fixtures" gridX="48" gridY="48">
+  <object shape="1" name="polyon_1" alpha="1" blendMode="0" x="0" y="0" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="2868035455" textcolor="4294967295">
+  <polygon points ="25,11 38,15 39,34 31,42 18,42 10,34 11,17"/>
+  <physics enabled="1" bodytype="1" convex="0" linked="1">  <body bodyshape="2" friction="0.1" bounce="0" density="0.8" radius="20" bullet="0" sensor="0" sleepallowed="1" fixed="1" categorybit="NotSet" maskbit="0"/>  </physics>
+  </object>
+  </layer>
+    <animations>
+    <sequence name="down" loopCount="0" loopDirection="0" duration="500" default="0" play="0">
+    <frames>
+    <frame idx ="0"/>
+    <frame idx ="4"/>
+    <frame idx ="8"/>
+    <frame idx ="12"/>
+    </frames>
+    </sequence>
+    <sequence name="left" loopCount="0" loopDirection="0" duration="350" default="0" play="0">
+    <frames>
+    <frame idx ="1"/>
+    <frame idx ="5"/>
+    <frame idx ="9"/>
+    <frame idx ="13"/>
+    </frames>
+    </sequence>
+    <sequence name="up" loopCount="1" loopDirection="0" duration="100" default="0" play="0">
+    <frames>
+    <frame idx ="0"/>
+    </frames>
+    </sequence>
+    <sequence name="right" loopCount="0" loopDirection="0" duration="350" default="0" play="0">
+    <frames>
+    <frame idx ="3"/>
+    <frame idx ="7"/>
+    <frame idx ="11"/>
+    <frame idx ="15"/>
+    </frames>
+    </sequence>
+    </animations>
+ </asset>
+ <asset frame="1" name="player_png_2" export="1" x="48" y="0" w="48" h="48"> </asset>
+ <asset frame="2" name="player_png_3" export="1" x="96" y="0" w="48" h="48"> </asset>
+ <asset frame="3" name="player_png_4" export="1" x="144" y="0" w="48" h="48"> </asset>
+ <asset frame="4" name="player_png_5" export="1" x="0" y="48" w="48" h="48"> </asset>
+ <asset frame="5" name="player_png_6" export="1" x="48" y="48" w="48" h="48"> </asset>
+ <asset frame="6" name="player_png_7" export="1" x="96" y="48" w="48" h="48"> </asset>
+ <asset frame="7" name="player_png_8" export="1" x="144" y="48" w="48" h="48"> </asset>
+ <asset frame="8" name="player_png_9" export="1" x="0" y="96" w="48" h="48"> </asset>
+ <asset frame="9" name="player_png_10" export="1" x="48" y="96" w="48" h="48"> </asset>
+ <asset frame="10" name="player_png_11" export="1" x="96" y="96" w="48" h="48"> </asset>
+ <asset frame="11" name="player_png_12" export="1" x="144" y="96" w="48" h="48"> </asset>
+ <asset frame="12" name="player_png_13" export="1" x="0" y="144" w="48" h="48"> </asset>
+ <asset frame="13" name="player_png_14" export="1" x="48" y="144" w="48" h="48"> </asset>
+ <asset frame="14" name="player_png_15" export="1" x="96" y="144" w="48" h="48"> </asset>
+ <asset frame="15" name="player_png_16" export="1" x="144" y="144" w="48" h="48"> </asset>
+</assets>
+<assets firstgid="65" name="bg_png"  width="256" height="256"> <image source="../../images/levels/bg.png" width="256" height="256"/>
+ <asset frame="0" name="bg_png" export="1" x="0" y="0" w="256" h="256"> </asset>
+</assets>
+<layer parallaxX="0" parallaxY="0" name="Sky" gridX="16" gridY="16"><object uid="275b9b3c-4a2e-4957-ad07-88a8141cebb8" shape="6" rotation="0" name="img_1" type="" alpha="1" blendMode="0" idx="65" x="0" y="0" width="256" height="256" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="3afc7574-a1c5-481d-819b-7b51b7055081" shape="6" rotation="0" name="img_2" type="" alpha="1" blendMode="0" idx="65" x="256" y="0" width="256" height="256" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="19bd9ffc-d6fa-438a-870a-845a0cbd230b" shape="6" rotation="0" name="img_3" type="" alpha="1" blendMode="0" idx="65" x="256" y="256" width="256" height="256" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="be43cf38-c4bf-4d93-8f80-efec8f412c6b" shape="6" rotation="0" name="img_4" type="" alpha="1" blendMode="0" idx="65" x="0" y="256" width="256" height="256" anchorX="0.5" anchorY="0.5" ></object>
+</layer>
+<layer parallaxX="0.1" parallaxY="0.1" name="Clouds" gridX="16" gridY="16"><object uid="f84ac65f-bd59-4c33-8d57-eb33b7fcf1d4" shape="6" rotation="0" name="img_1" type="" alpha="1" blendMode="0" idx="4" x="38" y="19.5" width="128" height="71" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="4611ca50-37c1-44ca-8e00-b97b5ad26e1d" shape="6" rotation="0" name="img_2" type="" alpha="1" blendMode="0" idx="6" x="211.5" y="52.5" width="129" height="71" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="62ea1f77-aef9-46b9-b46a-045366f4ceb0" shape="6" rotation="0" name="img_3" type="" alpha="1" blendMode="0" idx="5" x="105.5" y="45.5" width="129" height="71" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="03dc7cba-0ab7-4b1e-9f62-0deedce11359" shape="6" rotation="0" name="img_4" type="" alpha="1" blendMode="0" idx="4" x="418" y="-0.5" width="128" height="71" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="2409a694-42d6-4202-a298-5a2a11d9eab8" shape="6" rotation="0" name="img_5" type="" alpha="1" blendMode="0" idx="6" x="583.5" y="28.5" width="129" height="71" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="6cf081b7-6ccb-445e-b5ee-19963daf2de0" shape="6" rotation="0" name="img_6" type="" alpha="1" blendMode="0" idx="5" x="234.5" y="-25.5" width="129" height="71" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="c407521d-2d39-4f1b-9528-366916d03bbd" shape="6" rotation="0" name="img_7" type="" alpha="1" blendMode="0" idx="4" x="806" y="-37.5" width="128" height="71" anchorX="0.5" anchorY="0.5" ></object>
+</layer>
+<layer parallaxX="1" parallaxY="1" name="BG" gridX="1" gridY="1"><object uid="660aa299-f94b-4b4f-8250-182c41e8fcd7" shape="0" rotation="0" name="rect_380" type="" alpha="1" blendMode="0" x="0" y="251.5" width="2402" height="35" anchorX="0.5" anchorY="0.5" cornerRadius="0" strokecolor="16777215" fillcolor="16777215" >  <physics enabled="1" bodytype="0" convex="0" linked="1">  <body bodyshape="0" friction="0" bounce="0" density="1" radius="0" bullet="0" sensor="0" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics></object>
+<object uid="4e05b041-f440-4ec4-8ea0-5a6ef613d34d" shape="0" rotation="0" name="rect_381" type="" alpha="1" blendMode="0" x="414" y="181.5" width="138" height="39" anchorX="0.5" anchorY="0.5" cornerRadius="0" strokecolor="16777215" fillcolor="16777215" >  <physics enabled="1" bodytype="0" convex="0" linked="1">  <body bodyshape="0" friction="0" bounce="0" density="1" radius="0" bullet="0" sensor="0" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics></object>
+<object uid="99985163-622e-46f0-94a2-a6e3450dcbe9" shape="0" rotation="0" name="rect_382" type="" alpha="1" blendMode="0" x="1314" y="181.5" width="204" height="37" anchorX="0.5" anchorY="0.5" cornerRadius="0" strokecolor="16777215" fillcolor="16777215" >  <physics enabled="1" bodytype="0" convex="0" linked="1">  <body bodyshape="0" friction="0" bounce="0" density="1" radius="0" bullet="0" sensor="0" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics></object>
+<object uid="8a20a41f-29b1-4931-8816-035188244c26" shape="0" rotation="0" name="rect_383" type="" alpha="1" blendMode="0" x="1511" y="215.5" width="204" height="37" anchorX="0.5" anchorY="0.5" cornerRadius="0" strokecolor="16777215" fillcolor="16777215" >  <physics enabled="1" bodytype="0" convex="0" linked="1">  <body bodyshape="0" friction="0" bounce="0" density="1" radius="0" bullet="0" sensor="0" sleepallowed="1" fixed="0" categorybit="NotSet" maskbit="0"/>  </physics></object>
+<object uid="f126de77-908a-4857-b0d7-73f75a9f7ad3" shape="6" rotation="0" name="img_365" type="" alpha="1" blendMode="0" idx="40" x="1708" y="264" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="0f868335-8c8d-412a-9a76-4d0978937762" shape="6" rotation="0" name="img_357" type="" alpha="1" blendMode="0" idx="40" x="1848" y="264" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="821dc15c-d8f1-4045-9021-3485a39420aa" shape="6" rotation="0" name="img_194" type="" alpha="1" blendMode="0" idx="29" x="1" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="24bf499c-a326-42b3-afb7-ff9a7990ba81" shape="6" rotation="0" name="img_199" type="" alpha="1" blendMode="0" idx="30" x="70" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="3c5a8b60-b690-4bb2-8605-227314423cb8" shape="6" rotation="0" name="img_204" type="" alpha="1" blendMode="0" idx="30" x="139" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="93fa1e1c-df93-4fc4-9d64-57e11cc83038" shape="6" rotation="0" name="img_205" type="" alpha="1" blendMode="0" idx="30" x="208" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="68b70b7f-2101-44dd-a525-2ee69878008c" shape="6" rotation="0" name="img_206" type="" alpha="1" blendMode="0" idx="30" x="277" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="63c89fe1-f237-41d4-9470-f76161aee2f7" shape="6" rotation="0" name="img_207" type="" alpha="1" blendMode="0" idx="24" x="345" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="ce83fd80-ec92-49c9-ae57-54dce19b4958" shape="6" rotation="0" name="img_208" type="" alpha="1" blendMode="0" idx="23" x="344" y="181" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="ffbb7d1b-b6f8-4c81-bb6a-f128d4f36c09" shape="6" rotation="0" name="img_210" type="" alpha="1" blendMode="0" idx="30" x="414" y="181" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="0cda37fd-db69-467f-8fa5-084c664c14d1" shape="6" rotation="0" name="img_211" type="" alpha="1" blendMode="0" idx="13" x="414" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="c339a6c2-588f-43b2-92ea-55e5775fb0de" shape="6" rotation="0" name="img_215" type="" alpha="1" blendMode="0" idx="19" x="86" y="155" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="644c40bf-9c38-4250-9e4d-a2375f148637" shape="6" rotation="0" name="img_223" type="" alpha="1" blendMode="0" idx="30" x="482" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="bdce00b6-43c5-46db-9f69-89a9ce2289ee" shape="6" rotation="0" name="img_224" type="" alpha="1" blendMode="0" idx="30" x="552" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="bfa5231c-0dbf-4ad6-b1c6-dbfb726b5804" shape="6" rotation="0" name="img_225" type="" alpha="1" blendMode="0" idx="30" x="621" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="8b85072f-c45e-4ee4-ba67-8f726bfeff61" shape="6" rotation="0" name="img_226" type="" alpha="1" blendMode="0" idx="30" x="690" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="a1c71fe1-b82a-45cd-ac85-b1b0c63fc6cb" shape="6" rotation="0" name="img_228" type="" alpha="1" blendMode="0" idx="18" x="483" y="181" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="b004b57d-4de9-475f-b647-734afa22c5de" shape="6" rotation="0" name="img_235" type="" alpha="1" blendMode="0" idx="30" x="759" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="71be72bc-21c6-4049-9273-4413bbde1d9f" shape="6" rotation="0" name="img_236" type="" alpha="1" blendMode="0" idx="30" x="828" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="69b5026d-06b5-4e8d-a365-37f5320c485d" shape="6" rotation="0" name="img_237" type="" alpha="1" blendMode="0" idx="30" x="897" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="57e69fb1-8125-4d2e-8df3-e90eda3c8de7" shape="6" rotation="0" name="img_242" type="" alpha="1" blendMode="0" idx="19" x="303" y="82" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="4f2f23e6-cba5-4b2b-a3cb-cfa880418505" shape="6" rotation="0" name="img_243" type="" alpha="1" blendMode="0" idx="19" x="674" y="129" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="62b7ba93-86c3-408e-ae8a-466efdca7c47" shape="6" rotation="0" name="img_248" type="" alpha="1" blendMode="0" idx="30" x="966" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="172a32ca-bdb5-4107-9b40-1d2b3b98114f" shape="6" rotation="0" name="img_249" type="" alpha="1" blendMode="0" idx="30" x="1035" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="bbc29f82-6ce0-4e38-bc2a-5114ac1135d7" shape="6" rotation="0" name="img_250" type="" alpha="1" blendMode="0" idx="30" x="1104" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="7b47bf4b-72bd-47b4-a6d5-4859816c781a" shape="6" rotation="0" name="img_251" type="" alpha="1" blendMode="0" idx="30" x="1173" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="144d325a-8226-4aba-bbcf-897163ec8cfb" shape="6" rotation="0" name="img_252" type="" alpha="1" blendMode="0" idx="30" x="1242" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="93f5e6ae-a8fd-420d-8807-864f92afba0f" shape="6" rotation="0" name="img_253" type="" alpha="1" blendMode="0" idx="30" x="1311" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="cbca7332-dcaa-4b12-8cc3-c33afd0bc998" shape="6" rotation="0" name="img_257" type="" alpha="1" blendMode="0" idx="30" x="1984" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="aa3dfa21-22c6-4e75-94d0-e2a7a51635f4" shape="6" rotation="0" name="img_258" type="" alpha="1" blendMode="0" idx="30" x="2053" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="99c433a8-1967-4666-a949-e53c791a2d85" shape="6" rotation="0" name="img_259" type="" alpha="1" blendMode="0" idx="30" x="2122" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="ca9a4c13-b950-4eda-89cb-15e5ed366d38" shape="6" rotation="0" name="img_260" type="" alpha="1" blendMode="0" idx="30" x="2191" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="4437706e-a0f9-4ed2-a8b9-b07d0f4a5f91" shape="6" rotation="0" name="img_261" type="" alpha="1" blendMode="0" idx="30" x="2260" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="f2628588-ef83-438a-b4df-c54a6851cd09" shape="6" rotation="0" name="img_263" type="" alpha="1" blendMode="0" idx="31" x="2329" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="32a682e2-d49d-4115-bb48-4c41c19dbb69" shape="6" rotation="0" name="img_268" type="" alpha="1" blendMode="0" idx="39" x="1778" y="264" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="7cd562f7-5a52-458d-a338-c5237823b75a" shape="6" rotation="0" name="img_271" type="" alpha="1" blendMode="0" idx="31" x="1706" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="fae032c4-a30b-4b97-b82c-5ecedce3322f" shape="6" rotation="0" name="img_272" type="" alpha="1" blendMode="0" idx="29" x="1915" y="250" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="fa371c2f-4f46-45fd-82a9-8033e8280700" shape="6" rotation="0" name="img_283" type="" alpha="1" blendMode="0" idx="19" x="880" y="88" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="dd4dd794-46b6-4d00-9c90-bf0b8af81f53" shape="6" rotation="0" name="img_284" type="" alpha="1" blendMode="0" idx="19" x="1154" y="138" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="c4af724e-55ca-4e66-8fef-cbff477c903c" shape="6" rotation="0" name="img_291" type="" alpha="1" blendMode="0" idx="30" x="1381" y="181" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="9c5d7558-9b15-4f9f-9bf3-8f746b6eb007" shape="6" rotation="0" name="img_292" type="" alpha="1" blendMode="0" idx="18" x="1449" y="181" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="8c84750b-cc8b-44eb-a7ad-4dc3823346ba" shape="6" rotation="0" name="img_295" type="" alpha="1" blendMode="0" idx="16" x="1312" y="181" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="c42da874-cd08-4b43-a9e6-916a75883639" shape="6" rotation="0" name="img_299" type="" alpha="1" blendMode="0" idx="13" x="1359" y="251" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="089a3bb3-303d-4518-a8d4-c8af0db4b331" shape="6" rotation="0" name="img_302" type="" alpha="1" blendMode="0" idx="28" x="1357.5" y="250" width="5" height="24" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="99de6b87-0c66-4a16-a048-4a6fb1ba5485" shape="6" rotation="0" name="img_304" type="" alpha="1" blendMode="0" idx="13" x="1429" y="251" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="7b16a586-0bc7-4c96-a73f-49cfa965fd61" shape="6" rotation="0" name="img_334" type="" alpha="1" blendMode="0" idx="13" x="1499" y="251" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="523fff1a-7886-4d82-8e20-1e7c77ab38de" shape="6" rotation="0" name="img_335" type="" alpha="1" blendMode="0" idx="13" x="1568" y="251" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="aa70f842-ed87-49c6-ad0f-5628aaee3bbf" shape="6" rotation="0" name="img_336" type="" alpha="1" blendMode="0" idx="13" x="1637" y="251" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="56d8d0be-eb2e-46d0-8bbc-c960899e54bf" shape="6" rotation="0" name="img_340" type="" alpha="1" blendMode="0" idx="20" x="1439" y="216" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="f395ec58-608f-4997-b808-ae4a832c1a17" shape="6" rotation="0" name="img_342" type="" alpha="1" blendMode="0" idx="21" x="1508" y="216" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="e9269e21-812c-492a-88c0-6e0692e55e01" shape="6" rotation="0" name="img_344" type="" alpha="1" blendMode="0" idx="21" x="1577" y="216" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="70fa9ef2-4742-47cf-ab7c-cd37b105ae7b" shape="6" rotation="0" name="img_346" type="" alpha="1" blendMode="0" idx="22" x="1646" y="216" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="d108c7a0-bbbd-43d5-a58a-c34bbf101cba" shape="6" rotation="0" name="img_352" type="" alpha="1" blendMode="0" idx="1" x="1775" y="200" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="a1f1f3a5-c54f-4de0-96a2-6b53a9ea0f6f" shape="6" rotation="0" name="img_360" type="" alpha="1" blendMode="0" idx="1" x="1845" y="200" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="8ee37b2a-ff24-467c-adbe-64171f890bd6" shape="6" rotation="0" name="img_369" type="" alpha="1" blendMode="0" idx="19" x="1577" y="114" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="95de1ed1-921f-4b83-a0e4-fb494460f410" shape="6" rotation="0" name="img_370" type="" alpha="1" blendMode="0" idx="19" x="1836" y="137" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="d5ea3967-6cc1-483c-83eb-638075aeac08" shape="6" rotation="0" name="img_375" type="" alpha="1" blendMode="0" idx="2" x="700" y="181" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="b1b877c9-231f-4060-a886-627315a3ad1f" shape="6" rotation="0" name="img_16" type="Exit" alpha="1" blendMode="0" idx="46" x="2325" y="183" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="e0bbc815-da88-4d4e-9c6c-343d985c5125" shape="6" rotation="0" name="img_379" type="" alpha="1" blendMode="0" idx="19" x="2002" y="74" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="a2cd7ef2-dec9-429c-bc4e-79c0798d861a" shape="6" rotation="0" name="img_8" type="" alpha="1" blendMode="0" idx="47" x="1" y="183" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="514d1bff-4a6e-4124-b566-37db4bfeb5e1" shape="6" rotation="0" name="img_389" type="Star" alpha="1" blendMode="0" idx="48" x="83" y="33" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="9571c65e-e381-4a49-89d4-b63b66a41dad" shape="6" rotation="0" name="img_390" type="Star" alpha="1" blendMode="0" idx="48" x="304" y="-16" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="9cca6428-b9a6-4709-898f-c29617f74503" shape="6" rotation="0" name="img_391" type="Star" alpha="1" blendMode="0" idx="48" x="675" y="3" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="d6ad07cc-2ff3-4129-b1e1-e72e9e719ecd" shape="6" rotation="0" name="img_392" type="Star" alpha="1" blendMode="0" idx="48" x="881" y="119" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="bef77bb9-0184-4b0c-8d69-e7dc3cc42110" shape="6" rotation="0" name="img_393" type="Star" alpha="1" blendMode="0" idx="48" x="883" y="1" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="c07dfd49-4ef8-4759-ba9c-0382348cfe4f" shape="6" rotation="0" name="img_394" type="Star" alpha="1" blendMode="0" idx="48" x="1156" y="22" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="7dff349d-4624-4597-acfe-21a2054a8289" shape="6" rotation="0" name="img_395" type="Star" alpha="1" blendMode="0" idx="48" x="1503" y="-11" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="02d81fff-39b6-461b-aee2-e75a91b5c245" shape="6" rotation="0" name="img_396" type="Star" alpha="1" blendMode="0" idx="48" x="1904" y="28" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="b1e8ced7-4fda-4adc-9a4d-cd59f3a29e70" shape="6" rotation="0" name="img_397" type="Star" alpha="1" blendMode="0" idx="48" x="2150" y="57" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+</layer>
+<layer parallaxX="1" parallaxY="1" name="Player" gridX="8" gridY="8"><object uid="91f38c31-ac9a-4678-b72d-9a6b2c94fe6c" shape="6" rotation="0" name="player" type="Player" alpha="1" blendMode="0" idx="49" x="224" y="96" width="64" height="64" anchorX="0.5" anchorY="0.5" ></object>
+</layer>
+<layer parallaxX="1" parallaxY="1" name="FG" gridX="16" gridY="16"><object uid="4627ac3f-7f6a-4616-85b0-b4c26950e664" shape="6" rotation="0" name="img_5" type="" alpha="1" blendMode="0" idx="3" x="194" y="182" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="110d3582-34e1-4fe2-ac2f-c02f03ea6eca" shape="6" rotation="0" name="img_7" type="" alpha="1" blendMode="0" idx="41" x="446" y="113" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="0eea3706-7bdd-4750-ab9a-c06349d7e332" shape="6" rotation="0" name="img_11" type="" alpha="1" blendMode="0" idx="42" x="587" y="182" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="07de03e6-6d90-47cf-8b64-b2e2f6ff21da" shape="6" rotation="0" name="img_12" type="" alpha="1" blendMode="0" idx="11" x="790" y="182" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="5f33a095-b1f5-4728-b8ec-b91f399f794b" shape="6" rotation="0" name="img_13" type="" alpha="1" blendMode="0" idx="11" x="862" y="182" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="41934db6-c979-4f96-8c83-2afc0e15aa55" shape="6" rotation="0" name="img_14" type="" alpha="1" blendMode="0" idx="11" x="934" y="182" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="3b194c0f-bdca-4978-b74d-75c52be9b600" shape="6" rotation="0" name="img_15" type="" alpha="1" blendMode="0" idx="11" x="1007" y="182" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="4061f8c8-8de4-499b-922e-34e48875d9e8" shape="6" rotation="0" name="img_18" type="" alpha="1" blendMode="0" idx="43" x="1380" y="113" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="e35130e9-722b-44a1-85ca-003245e1a60b" shape="6" rotation="0" name="img_20" type="" alpha="1" blendMode="0" idx="42" x="1578" y="45" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="452c9970-3a68-4fb4-9a2c-0e0dd8b17e7f" shape="6" rotation="0" name="img_21" type="" alpha="1" blendMode="0" idx="42" x="2035" y="183" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+<object uid="0a37dd9e-77fc-44cb-8532-b9f60b80964a" shape="6" rotation="0" name="img_24" type="" alpha="1" blendMode="0" idx="41" x="1916" y="183" width="70" height="70" anchorX="0.5" anchorY="0.5" ></object>
+</layer>
+<layer parallaxX="0" parallaxY="0" name="Controls" gridX="8" gridY="8"><object uid="e1544926-5b76-4479-91d0-ff9c7a0c34dd" shape="7" rotation="0" name="btnUp" type="" alpha="1" blendMode="0" x="424.5" y="264.5" width="39" height="39" anchorX="0.5" anchorY="0.5"  strokecolor="4294967295" fillcolor="4278190080" ></object>
+<object uid="0a1cc698-6125-4d05-a600-92d7989964dc" shape="7" rotation="0" name="btnLeft" type="" alpha="1" blendMode="0" x="24.5" y="264.5" width="39" height="39" anchorX="0.5" anchorY="0.5"  strokecolor="4294967295" fillcolor="4278190080" ></object>
+<object uid="cd2dc184-1447-4515-b8b6-d139394abb8c" shape="7" rotation="0" name="btnRight" type="" alpha="1" blendMode="0" x="88.5" y="264.5" width="39" height="39" anchorX="0.5" anchorY="0.5"  strokecolor="4294967295" fillcolor="4278190080" ></object>
+<object uid="c09b1bab-c1d3-4b65-bddf-16bec5c3f9f2" shape="5" rotation="0" name="coords" type="" alpha="1" blendMode="0" x="223.5" y="272.5" width="33" height="23" anchorX="0.5" anchorY="0.5"  strokecolor="4278190080" fillcolor="4278190080" textColor="-16777216"  text="0,0" shadowcolor="4294967295" highlightcolor="4294967295"  ><font family="native.systemFont" size="18"/></object>
+<object uid="f9948dca-b00f-461e-9412-9df6deed839b" shape="5" rotation="0" name="demo" type="" alpha="1" blendMode="0" x="128" y="15.5" width="252" height="13" anchorX="0.5" anchorY="0.5"  strokecolor="4278190208" fillcolor="4278190208" textColor="-16777088"  text="Level Director Demo - www.retrofitproductions.com" shadowcolor="4294967295" highlightcolor="4294967295"  ><font family="native.systemFont" size="12"/></object>
+</layer>
+<layer parallaxX="0" parallaxY="0" name="Camera" gridX="16" gridY="16"></layer>
+</level>
